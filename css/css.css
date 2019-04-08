@@ -1,0 +1,47 @@
+#content {
+  /* max-width:100%;
+  margin-top:70px;
+  margin-left:160px; */
+  position: relative;
+  border: solid gray 2px;
+}
+
+#header {
+  position: absolute;
+  width: 100%;
+  height: 60px; 
+  border: solid gray 2px;
+  top: 0;
+  background-color:white;
+}
+
+#sideNav {
+  position: absolute;
+  left: 0;
+  top:60px;
+  width: 150px;
+  border: solid gray 2px;
+}
+
+#tabs{
+/* position: relative; */
+/* margin-left:150px; 
+margin-top: 60px; */
+
+}
+
+
+
+.ui-widget-header {
+    background: blanchedalmond;
+    height: 43px;
+}
+
+#message p {
+  /* color:red; */
+  color: red;
+}
+
+#tabs ul li {
+  background-color: aqua;
+}

@@ -1,0 +1,71 @@
+body {
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;  */
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#container {
+    padding-bottom: 36px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+
+.first{
+    background-color: cadetblue;
+}
+.second{
+    background-color: chocolate;
+}
+.third{
+    background-color: cornflowerblue;
+}
+.fourth{
+    background-color: rgb(156, 196, 47);   
+}
+.fiftn{
+    background-color: royalblue
+}
+.sixth{
+    background-color: yellow
+}
+.seventh{
+    background-color: rgba(204, 52, 52, 0.705)
+}
+
+
+.crawl{
+    -webkit-animation: crawl 4s;
+}
+.dangle{
+    -webkit-animation: dangle 4s;
+}
+.jump{
+    -webkit-animation: jump 4s;
+}
+.stretch {
+	-webkit-animation: stretch 4s;
+}
+.flip {
+	-webkit-animation: flip 4s;
+}
+
+/* @-webkit-keyframes crawl{
+
+ -webkit-transform:
+
+} */
+
+a:hover{
+    background-color: cornsilk
+}
+
+.first ul li{
+    /* background-color: brown */
+    font-size: 20px
+}
+
