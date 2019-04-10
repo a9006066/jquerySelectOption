@@ -49,7 +49,7 @@
 
     //取得清單
     function getOption() {
-        $.get("../doc/data.json", (response) => {
+        $.get("docs/doc/data.json", (response) => {
             datas = response;
             select.prepend($("<option></option>").attr("value", '全部單位').text('全部單位'));
             for (let i = 0; i < datas.length; i++) {
